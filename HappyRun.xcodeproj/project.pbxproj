@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E48F60D1C5EF4E400692810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60C1C5EF4E400692810 /* main.m */; };
+		7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60F1C5EF4E400692810 /* AppDelegate.m */; };
+		7E48F6131C5EF4E400692810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F6121C5EF4E400692810 /* ViewController.m */; };
+		7E48F6161C5EF4E400692810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6141C5EF4E400692810 /* Main.storyboard */; };
+		7E48F6181C5EF4E400692810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6171C5EF4E400692810 /* Assets.xcassets */; };
+		7E48F61B1C5EF4E400692810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */; };
+		7E48F6261C5EF4E400692810 /* HappyRunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F6251C5EF4E400692810 /* HappyRunTests.m */; };
+		7E48F6311C5EF4E400692810 /* HappyRunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F6301C5EF4E400692810 /* HappyRunUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E48F6221C5EF4E400692810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E48F6001C5EF4E400692810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E48F6071C5EF4E400692810;
+			remoteInfo = HappyRun;
+		};
+		7E48F62D1C5EF4E400692810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E48F6001C5EF4E400692810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E48F6071C5EF4E400692810;
+			remoteInfo = HappyRun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E48F6081C5EF4E400692810 /* HappyRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E48F60C1C5EF4E400692810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E48F60E1C5EF4E400692810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E48F60F1C5EF4E400692810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E48F6111C5EF4E400692810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E48F6121C5EF4E400692810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E48F6151C5EF4E400692810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E48F6171C5EF4E400692810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E48F61A1C5EF4E400692810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E48F61C1C5EF4E400692810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E48F6211C5EF4E400692810 /* HappyRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E48F6251C5EF4E400692810 /* HappyRunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyRunTests.m; sourceTree = "<group>"; };
+		7E48F6271C5EF4E400692810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E48F62C1C5EF4E400692810 /* HappyRunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyRunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E48F6301C5EF4E400692810 /* HappyRunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyRunUITests.m; sourceTree = "<group>"; };
+		7E48F6321C5EF4E400692810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E48F6051C5EF4E400692810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E48F61E1C5EF4E400692810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E48F6291C5EF4E400692810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E48F5FF1C5EF4E400692810 = {
+			isa = PBXGroup;
+			children = (
+				7E48F60A1C5EF4E400692810 /* HappyRun */,
+				7E48F6241C5EF4E400692810 /* HappyRunTests */,
+				7E48F62F1C5EF4E400692810 /* HappyRunUITests */,
+				7E48F6091C5EF4E400692810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E48F6091C5EF4E400692810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F6081C5EF4E400692810 /* HappyRun.app */,
+				7E48F6211C5EF4E400692810 /* HappyRunTests.xctest */,
+				7E48F62C1C5EF4E400692810 /* HappyRunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E48F60A1C5EF4E400692810 /* HappyRun */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F60E1C5EF4E400692810 /* AppDelegate.h */,
+				7E48F60F1C5EF4E400692810 /* AppDelegate.m */,
+				7E48F6111C5EF4E400692810 /* ViewController.h */,
+				7E48F6121C5EF4E400692810 /* ViewController.m */,
+				7E48F6141C5EF4E400692810 /* Main.storyboard */,
+				7E48F6171C5EF4E400692810 /* Assets.xcassets */,
+				7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */,
+				7E48F61C1C5EF4E400692810 /* Info.plist */,
+				7E48F60B1C5EF4E400692810 /* Supporting Files */,
+			);
+			path = HappyRun;
+			sourceTree = "<group>";
+		};
+		7E48F60B1C5EF4E400692810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F60C1C5EF4E400692810 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E48F6241C5EF4E400692810 /* HappyRunTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F6251C5EF4E400692810 /* HappyRunTests.m */,
+				7E48F6271C5EF4E400692810 /* Info.plist */,
+			);
+			path = HappyRunTests;
+			sourceTree = "<group>";
+		};
+		7E48F62F1C5EF4E400692810 /* HappyRunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F6301C5EF4E400692810 /* HappyRunUITests.m */,
+				7E48F6321C5EF4E400692810 /* Info.plist */,
+			);
+			path = HappyRunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E48F6071C5EF4E400692810 /* HappyRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E48F6351C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRun" */;
+			buildPhases = (
+				7E48F6041C5EF4E400692810 /* Sources */,
+				7E48F6051C5EF4E400692810 /* Frameworks */,
+				7E48F6061C5EF4E400692810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyRun;
+			productName = HappyRun;
+			productReference = 7E48F6081C5EF4E400692810 /* HappyRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E48F6201C5EF4E400692810 /* HappyRunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E48F6381C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRunTests" */;
+			buildPhases = (
+				7E48F61D1C5EF4E400692810 /* Sources */,
+				7E48F61E1C5EF4E400692810 /* Frameworks */,
+				7E48F61F1C5EF4E400692810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E48F6231C5EF4E400692810 /* PBXTargetDependency */,
+			);
+			name = HappyRunTests;
+			productName = HappyRunTests;
+			productReference = 7E48F6211C5EF4E400692810 /* HappyRunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E48F62B1C5EF4E400692810 /* HappyRunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E48F63B1C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRunUITests" */;
+			buildPhases = (
+				7E48F6281C5EF4E400692810 /* Sources */,
+				7E48F6291C5EF4E400692810 /* Frameworks */,
+				7E48F62A1C5EF4E400692810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E48F62E1C5EF4E400692810 /* PBXTargetDependency */,
+			);
+			name = HappyRunUITests;
+			productName = HappyRunUITests;
+			productReference = 7E48F62C1C5EF4E400692810 /* HappyRunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E48F6001C5EF4E400692810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = YuZai;
+				TargetAttributes = {
+					7E48F6071C5EF4E400692810 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7E48F6201C5EF4E400692810 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7E48F6071C5EF4E400692810;
+					};
+					7E48F62B1C5EF4E400692810 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7E48F6071C5EF4E400692810;
+					};
+				};
+			};
+			buildConfigurationList = 7E48F6031C5EF4E400692810 /* Build configuration list for PBXProject "HappyRun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E48F5FF1C5EF4E400692810;
+			productRefGroup = 7E48F6091C5EF4E400692810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E48F6071C5EF4E400692810 /* HappyRun */,
+				7E48F6201C5EF4E400692810 /* HappyRunTests */,
+				7E48F62B1C5EF4E400692810 /* HappyRunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E48F6061C5EF4E400692810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E48F61B1C5EF4E400692810 /* LaunchScreen.storyboard in Resources */,
+				7E48F6181C5EF4E400692810 /* Assets.xcassets in Resources */,
+				7E48F6161C5EF4E400692810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E48F61F1C5EF4E400692810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E48F62A1C5EF4E400692810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E48F6041C5EF4E400692810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E48F6131C5EF4E400692810 /* ViewController.m in Sources */,
+				7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */,
+				7E48F60D1C5EF4E400692810 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E48F61D1C5EF4E400692810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E48F6261C5EF4E400692810 /* HappyRunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E48F6281C5EF4E400692810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E48F6311C5EF4E400692810 /* HappyRunUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E48F6231C5EF4E400692810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E48F6071C5EF4E400692810 /* HappyRun */;
+			targetProxy = 7E48F6221C5EF4E400692810 /* PBXContainerItemProxy */;
+		};
+		7E48F62E1C5EF4E400692810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E48F6071C5EF4E400692810 /* HappyRun */;
+			targetProxy = 7E48F62D1C5EF4E400692810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E48F6141C5EF4E400692810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E48F6151C5EF4E400692810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E48F61A1C5EF4E400692810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E48F6331C5EF4E400692810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E48F6341C5EF4E400692810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E48F6361C5EF4E400692810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scut.HappyRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E48F6371C5EF4E400692810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scut.HappyRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E48F6391C5EF4E400692810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyRunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scut.HappyRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyRun.app/HappyRun";
+			};
+			name = Debug;
+		};
+		7E48F63A1C5EF4E400692810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyRunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scut.HappyRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyRun.app/HappyRun";
+			};
+			name = Release;
+		};
+		7E48F63C1C5EF4E400692810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappyRunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scut.HappyRunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappyRun;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7E48F63D1C5EF4E400692810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HappyRunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Scut.HappyRunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HappyRun;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E48F6031C5EF4E400692810 /* Build configuration list for PBXProject "HappyRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E48F6331C5EF4E400692810 /* Debug */,
+				7E48F6341C5EF4E400692810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E48F6351C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E48F6361C5EF4E400692810 /* Debug */,
+				7E48F6371C5EF4E400692810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E48F6381C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E48F6391C5EF4E400692810 /* Debug */,
+				7E48F63A1C5EF4E400692810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E48F63B1C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E48F63C1C5EF4E400692810 /* Debug */,
+				7E48F63D1C5EF4E400692810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E48F6001C5EF4E400692810 /* Project object */;
+}
