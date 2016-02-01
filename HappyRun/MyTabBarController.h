@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyTabBarController.h
 //  HappyRun
 //
 //  Created by YuZai on 16/2/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyTabBarController : UITabBarController
 
 @end
-

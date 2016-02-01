@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		7E48F60D1C5EF4E400692810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60C1C5EF4E400692810 /* main.m */; };
 		7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60F1C5EF4E400692810 /* AppDelegate.m */; };
-		7E48F6131C5EF4E400692810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F6121C5EF4E400692810 /* ViewController.m */; };
 		7E48F6161C5EF4E400692810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6141C5EF4E400692810 /* Main.storyboard */; };
 		7E48F6181C5EF4E400692810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6171C5EF4E400692810 /* Assets.xcassets */; };
 		7E48F61B1C5EF4E400692810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */; };
 		7E48F6261C5EF4E400692810 /* HappyRunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F6251C5EF4E400692810 /* HappyRunTests.m */; };
 		7E48F6311C5EF4E400692810 /* HappyRunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F6301C5EF4E400692810 /* HappyRunUITests.m */; };
+		7E48F6401C5EF8EC00692810 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F63F1C5EF8EC00692810 /* MyTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		7E48F60C1C5EF4E400692810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E48F60E1C5EF4E400692810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E48F60F1C5EF4E400692810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E48F6111C5EF4E400692810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E48F6121C5EF4E400692810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E48F6151C5EF4E400692810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E48F6171C5EF4E400692810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E48F61A1C5EF4E400692810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		7E48F62C1C5EF4E400692810 /* HappyRunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyRunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E48F6301C5EF4E400692810 /* HappyRunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyRunUITests.m; sourceTree = "<group>"; };
 		7E48F6321C5EF4E400692810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E48F63E1C5EF8EC00692810 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		7E48F63F1C5EF8EC00692810 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 			children = (
 				7E48F60E1C5EF4E400692810 /* AppDelegate.h */,
 				7E48F60F1C5EF4E400692810 /* AppDelegate.m */,
-				7E48F6111C5EF4E400692810 /* ViewController.h */,
-				7E48F6121C5EF4E400692810 /* ViewController.m */,
 				7E48F6141C5EF4E400692810 /* Main.storyboard */,
+				7E48F63E1C5EF8EC00692810 /* MyTabBarController.h */,
+				7E48F63F1C5EF8EC00692810 /* MyTabBarController.m */,
 				7E48F6171C5EF4E400692810 /* Assets.xcassets */,
 				7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */,
 				7E48F61C1C5EF4E400692810 /* Info.plist */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E48F6131C5EF4E400692810 /* ViewController.m in Sources */,
+				7E48F6401C5EF8EC00692810 /* MyTabBarController.m in Sources */,
 				7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */,
 				7E48F60D1C5EF4E400692810 /* main.m in Sources */,
 			);
@@ -498,6 +498,7 @@
 				7E48F6371C5EF4E400692810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E48F6381C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRunTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				7E48F63A1C5EF4E400692810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E48F63B1C5EF4E400692810 /* Build configuration list for PBXNativeTarget "HappyRunUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				7E48F63D1C5EF4E400692810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
