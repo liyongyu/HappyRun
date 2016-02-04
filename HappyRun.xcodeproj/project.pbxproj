@@ -78,6 +78,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E851311C61EC33005CA226 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F60E1C5EF4E400692810 /* AppDelegate.h */,
+				7E48F60F1C5EF4E400692810 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		04E851321C61EC42005CA226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F6141C5EF4E400692810 /* Main.storyboard */,
+				7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04E851331C61EC4F005CA226 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F63E1C5EF8EC00692810 /* MyTabBarController.h */,
+				7E48F63F1C5EF8EC00692810 /* MyTabBarController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04E851341C61EC60005CA226 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				7E48F6171C5EF4E400692810 /* Assets.xcassets */,
+			);
+			name = Sourses;
+			sourceTree = "<group>";
+		};
 		7E48F5FF1C5EF4E400692810 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +136,10 @@
 		7E48F60A1C5EF4E400692810 /* HappyRun */ = {
 			isa = PBXGroup;
 			children = (
-				7E48F60E1C5EF4E400692810 /* AppDelegate.h */,
-				7E48F60F1C5EF4E400692810 /* AppDelegate.m */,
-				7E48F6141C5EF4E400692810 /* Main.storyboard */,
-				7E48F63E1C5EF8EC00692810 /* MyTabBarController.h */,
-				7E48F63F1C5EF8EC00692810 /* MyTabBarController.m */,
-				7E48F6171C5EF4E400692810 /* Assets.xcassets */,
-				7E48F6191C5EF4E400692810 /* LaunchScreen.storyboard */,
-				7E48F61C1C5EF4E400692810 /* Info.plist */,
+				04E851311C61EC33005CA226 /* AppDelegate */,
+				04E851321C61EC42005CA226 /* View */,
+				04E851331C61EC4F005CA226 /* Controller */,
+				04E851341C61EC60005CA226 /* Sourses */,
 				7E48F60B1C5EF4E400692810 /* Supporting Files */,
 			);
 			path = HappyRun;
@@ -117,6 +148,7 @@
 		7E48F60B1C5EF4E400692810 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E48F61C1C5EF4E400692810 /* Info.plist */,
 				7E48F60C1C5EF4E400692810 /* main.m */,
 			);
 			name = "Supporting Files";
