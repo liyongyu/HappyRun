@@ -43,5 +43,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>需要后台定位</string>
+    <key>UIBackgroundModes</key>
+    <array>
+    <string>location</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
 </dict>
+</dict>
+
+
 </plist>
