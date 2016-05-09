@@ -1,18 +1,18 @@
 //
-//  MyTabBarController.m
+//  HomePageController.m
 //  HappyRun
 //
-//  Created by YuZai on 16/2/1.
+//  Created by liyongyu on 16/5/6.
 //  Copyright © 2016年 YuZai. All rights reserved.
 //
 
-#import "MyTabBarController.h"
+#import "HomePageController.h"
 
-@interface MyTabBarController ()
+@interface HomePageController ()
 
 @end
 
-@implementation MyTabBarController
+@implementation HomePageController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
