@@ -7,8 +7,11 @@
 //
 
 #import "StartRunController.h"
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
 
 @interface StartRunController ()
+
+@property (nonatomic, strong) BMKMapView *mapView;
 
 @end
 
@@ -16,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    self.view = _mapView;
     // Do any additional setup after loading the view.
 }
 

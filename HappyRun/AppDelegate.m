@@ -18,6 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    _mapManager = [[BMKMapManager alloc]init];
+    BOOL ret = [_mapManager start:@"CM2kMG40xNLHOc21oy6qY80V"  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _tabController = [[MyTabBarController alloc] init];
     self.window.rootViewController = _tabController;
