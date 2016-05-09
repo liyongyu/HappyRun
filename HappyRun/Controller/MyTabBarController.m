@@ -9,11 +9,13 @@
 #import "MyTabBarController.h"
 #import "UserViewController.h"
 #import "HomePageController.h"
+#import "StartRunController.h"
 
 @interface MyTabBarController ()
 
 @property (nonatomic, strong) UserViewController *userController;
 @property (nonatomic, strong) HomePageController *homePageController;
+@property (nonatomic, strong) StartRunController *startRunController;
 @end
 
 @implementation MyTabBarController
@@ -26,15 +28,15 @@
     _homePageController.tabBarItem.image = [UIImage imageNamed:@"tabBarPortal"];
     _homePageController.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBarPortalSelected"];
     
-    UIViewController *vc2;
-    vc2 = [[UIViewController alloc] init];
-    vc2.view.backgroundColor = [UIColor blueColor];
-    vc2.title = @"page2";
+    _startRunController = [[StartRunController alloc] init];
+    _startRunController.view.backgroundColor = [UIColor blueColor];
+    _startRunController.title = @"运动";
+    
     _userController = [[UserViewController alloc] init];
     _userController.title = @"个人中心";
     _userController.tabBarItem.image = [UIImage imageNamed:@"tabBarPersonal"];
     _userController.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBarPersonalSelected"];
-    self.viewControllers = [NSArray arrayWithObjects:_homePageController, vc2, _userController, nil];
+    self.viewControllers = [NSArray arrayWithObjects:_homePageController, _startRunController, _userController, nil];
     self.tabBar.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1.0];
     
     // Do any additional setup after loading the view.

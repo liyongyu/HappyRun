@@ -11,6 +11,7 @@
 		1799CEB91CDCA94500310A4B /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799CEB61CDCA94500310A4B /* MyTabBarController.m */; };
 		1799CEBA1CDCA94500310A4B /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799CEB81CDCA94500310A4B /* UserViewController.m */; };
 		1799CEBD1CDCA97500310A4B /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799CEBC1CDCA97500310A4B /* HomePageController.m */; };
+		1799CEC01CE01F2500310A4B /* StartRunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799CEBF1CE01F2500310A4B /* StartRunController.m */; };
 		7E48F60D1C5EF4E400692810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60C1C5EF4E400692810 /* main.m */; };
 		7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60F1C5EF4E400692810 /* AppDelegate.m */; };
 		7E48F6181C5EF4E400692810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6171C5EF4E400692810 /* Assets.xcassets */; };
@@ -44,6 +45,8 @@
 		1799CEB81CDCA94500310A4B /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = Controller/UserViewController.m; sourceTree = "<group>"; };
 		1799CEBB1CDCA97500310A4B /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageController.h; path = Controller/HomePageController.h; sourceTree = "<group>"; };
 		1799CEBC1CDCA97500310A4B /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageController.m; path = Controller/HomePageController.m; sourceTree = "<group>"; };
+		1799CEBE1CE01F2500310A4B /* StartRunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartRunController.h; sourceTree = "<group>"; };
+		1799CEBF1CE01F2500310A4B /* StartRunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartRunController.m; sourceTree = "<group>"; };
 		7E48F6081C5EF4E400692810 /* HappyRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E48F60C1C5EF4E400692810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E48F60E1C5EF4E400692810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				1799CEBC1CDCA97500310A4B /* HomePageController.m */,
 				1799CEB71CDCA94500310A4B /* UserViewController.h */,
 				1799CEB81CDCA94500310A4B /* UserViewController.m */,
+				1799CEBE1CE01F2500310A4B /* StartRunController.h */,
+				1799CEBF1CE01F2500310A4B /* StartRunController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				1799CEBD1CDCA97500310A4B /* HomePageController.m in Sources */,
 				1799CEB91CDCA94500310A4B /* MyTabBarController.m in Sources */,
 				7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */,
+				1799CEC01CE01F2500310A4B /* StartRunController.m in Sources */,
 				7E48F60D1C5EF4E400692810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
