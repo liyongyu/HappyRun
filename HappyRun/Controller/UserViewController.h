@@ -6,8 +6,9 @@
 //  Copyright © 2016年 YuZai. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface UserViewController : UIViewController
+@interface UserViewController : BaseViewController
+
 
 @end
