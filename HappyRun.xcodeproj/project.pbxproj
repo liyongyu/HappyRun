@@ -13,6 +13,10 @@
 		1799CEBD1CDCA97500310A4B /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799CEBC1CDCA97500310A4B /* HomePageController.m */; };
 		1799CEC01CE01F2500310A4B /* StartRunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799CEBF1CE01F2500310A4B /* StartRunController.m */; };
 		17C0419F1CE0858F000D5BAE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0419E1CE0858F000D5BAE /* BaseViewController.m */; };
+		17C041A21CE1B4B4000D5BAE /* SportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C041A11CE1B4B4000D5BAE /* SportController.m */; };
+		17C041A61CE1BC67000D5BAE /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C041A51CE1BC67000D5BAE /* BaseModel.m */; };
+		17C041A91CE1BC83000D5BAE /* SportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C041A81CE1BC83000D5BAE /* SportModel.m */; };
+		17C041AC1CE1BED7000D5BAE /* SportPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C041AB1CE1BED7000D5BAE /* SportPath.m */; };
 		7E48F60D1C5EF4E400692810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60C1C5EF4E400692810 /* main.m */; };
 		7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60F1C5EF4E400692810 /* AppDelegate.m */; };
 		7E48F6181C5EF4E400692810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6171C5EF4E400692810 /* Assets.xcassets */; };
@@ -50,6 +54,14 @@
 		1799CEBF1CE01F2500310A4B /* StartRunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartRunController.m; sourceTree = "<group>"; };
 		17C0419D1CE0858F000D5BAE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		17C0419E1CE0858F000D5BAE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		17C041A01CE1B4B4000D5BAE /* SportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportController.h; sourceTree = "<group>"; };
+		17C041A11CE1B4B4000D5BAE /* SportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportController.m; sourceTree = "<group>"; };
+		17C041A41CE1BC67000D5BAE /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		17C041A51CE1BC67000D5BAE /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		17C041A71CE1BC83000D5BAE /* SportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportModel.h; sourceTree = "<group>"; };
+		17C041A81CE1BC83000D5BAE /* SportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportModel.m; sourceTree = "<group>"; };
+		17C041AA1CE1BED7000D5BAE /* SportPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportPath.h; sourceTree = "<group>"; };
+		17C041AB1CE1BED7000D5BAE /* SportPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportPath.m; sourceTree = "<group>"; };
 		7E48F6081C5EF4E400692810 /* HappyRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E48F60C1C5EF4E400692810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E48F60E1C5EF4E400692810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +129,8 @@
 				17C0419E1CE0858F000D5BAE /* BaseViewController.m */,
 				1799CEB51CDCA94500310A4B /* MyTabBarController.h */,
 				1799CEB61CDCA94500310A4B /* MyTabBarController.m */,
+				17C041A01CE1B4B4000D5BAE /* SportController.h */,
+				17C041A11CE1B4B4000D5BAE /* SportController.m */,
 				1799CEBB1CDCA97500310A4B /* HomePageController.h */,
 				1799CEBC1CDCA97500310A4B /* HomePageController.m */,
 				1799CEB71CDCA94500310A4B /* UserViewController.h */,
@@ -133,6 +147,19 @@
 				7E48F6171C5EF4E400692810 /* Assets.xcassets */,
 			);
 			name = Sourses;
+			sourceTree = "<group>";
+		};
+		17C041A31CE1BC2B000D5BAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17C041A41CE1BC67000D5BAE /* BaseModel.h */,
+				17C041A51CE1BC67000D5BAE /* BaseModel.m */,
+				17C041A71CE1BC83000D5BAE /* SportModel.h */,
+				17C041A81CE1BC83000D5BAE /* SportModel.m */,
+				17C041AA1CE1BED7000D5BAE /* SportPath.h */,
+				17C041AB1CE1BED7000D5BAE /* SportPath.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7E48F5FF1C5EF4E400692810 = {
@@ -160,6 +187,7 @@
 		7E48F60A1C5EF4E400692810 /* HappyRun */ = {
 			isa = PBXGroup;
 			children = (
+				17C041A31CE1BC2B000D5BAE /* Model */,
 				04E851311C61EC33005CA226 /* AppDelegate */,
 				04E851321C61EC42005CA226 /* View */,
 				04E851331C61EC4F005CA226 /* Controller */,
@@ -393,13 +421,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C041A61CE1BC67000D5BAE /* BaseModel.m in Sources */,
+				17C041A21CE1B4B4000D5BAE /* SportController.m in Sources */,
 				1799CEBA1CDCA94500310A4B /* UserViewController.m in Sources */,
 				1799CEBD1CDCA97500310A4B /* HomePageController.m in Sources */,
+				17C041A91CE1BC83000D5BAE /* SportModel.m in Sources */,
 				1799CEB91CDCA94500310A4B /* MyTabBarController.m in Sources */,
 				7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */,
 				1799CEC01CE01F2500310A4B /* StartRunController.m in Sources */,
 				17C0419F1CE0858F000D5BAE /* BaseViewController.m in Sources */,
 				7E48F60D1C5EF4E400692810 /* main.m in Sources */,
+				17C041AC1CE1BED7000D5BAE /* SportPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
