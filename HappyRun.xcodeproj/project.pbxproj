@@ -132,7 +132,7 @@
 				1702CB7C1CE470B600157878 /* BaseView.m */,
 			);
 			name = Base;
-			path = Model;
+			path = ../../Model;
 			sourceTree = "<group>";
 		};
 		1702CB591CE46BD100157878 /* APPModule */ = {
@@ -148,6 +148,7 @@
 		1702CB5A1CE46BD100157878 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				1702CB311CE4676B00157878 /* Base */,
 				1702CB5B1CE46BD100157878 /* Controller */,
 				1702CB5E1CE46BD100157878 /* Model */,
 				1702CB5F1CE46BD100157878 /* View */,
@@ -280,7 +281,6 @@
 				1702CB591CE46BD100157878 /* APPModule */,
 				7E48F60B1C5EF4E400692810 /* Supporting Files */,
 				04E851341C61EC60005CA226 /* Sourses */,
-				1702CB311CE4676B00157878 /* Base */,
 			);
 			path = HappyRun;
 			sourceTree = "<group>";
