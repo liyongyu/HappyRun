@@ -16,6 +16,6 @@
 /**
  *  1：进行中，0：暂停
  */
-@property (nonatomic, assign) NSInteger status;
+//@property (nonatomic, assign) NSInteger status;
 
 @end
