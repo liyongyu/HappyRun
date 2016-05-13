@@ -19,6 +19,8 @@
 		1702CB7A1CE46C1600157878 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1702CB791CE46C1600157878 /* UserViewController.m */; };
 		1702CB7D1CE470B600157878 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1702CB7C1CE470B600157878 /* BaseView.m */; };
 		1799CEAE1CDC99F300310A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1799CEAD1CDC99F300310A4B /* LaunchScreen.storyboard */; };
+		179EE1851CE4CE6400654FCF /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 179EE1841CE4CE6400654FCF /* DatabaseManager.m */; };
+		179EE1881CE4CEDC00654FCF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 179EE1861CE4CEDC00654FCF /* Model.xcdatamodeld */; };
 		7E48F60D1C5EF4E400692810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60C1C5EF4E400692810 /* main.m */; };
 		7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48F60F1C5EF4E400692810 /* AppDelegate.m */; };
 		7E48F6181C5EF4E400692810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E48F6171C5EF4E400692810 /* Assets.xcassets */; };
@@ -68,6 +70,9 @@
 		1702CB7B1CE470B500157878 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		1702CB7C1CE470B600157878 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		1799CEAD1CDC99F300310A4B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = View/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179EE1831CE4CE6400654FCF /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseManager.h; path = HappyRun/Service/DatabaseManager/DatabaseManager.h; sourceTree = SOURCE_ROOT; };
+		179EE1841CE4CE6400654FCF /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseManager.m; path = HappyRun/Service/DatabaseManager/DatabaseManager.m; sourceTree = SOURCE_ROOT; };
+		179EE1871CE4CEDC00654FCF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		7E48F6081C5EF4E400692810 /* HappyRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E48F60C1C5EF4E400692810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E48F60E1C5EF4E400692810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -223,9 +228,9 @@
 		1702CB6E1CE46BD100157878 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				1702CB6F1CE46BD100157878 /* Controller */,
 				1702CB701CE46BD100157878 /* Model */,
 				1702CB711CE46BD100157878 /* View */,
+				1702CB6F1CE46BD100157878 /* Controller */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -251,6 +256,25 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		179EE1811CE4CD6600654FCF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				179EE1821CE4CD7600654FCF /* DatabaseManager */,
+			);
+			name = Service;
+			path = APPModule;
+			sourceTree = "<group>";
+		};
+		179EE1821CE4CD7600654FCF /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				179EE1831CE4CE6400654FCF /* DatabaseManager.h */,
+				179EE1841CE4CE6400654FCF /* DatabaseManager.m */,
+				179EE1861CE4CEDC00654FCF /* Model.xcdatamodeld */,
+			);
+			name = DatabaseManager;
 			sourceTree = "<group>";
 		};
 		7E48F5FF1C5EF4E400692810 = {
@@ -279,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				1702CB591CE46BD100157878 /* APPModule */,
+				179EE1811CE4CD6600654FCF /* Service */,
 				7E48F60B1C5EF4E400692810 /* Supporting Files */,
 				04E851341C61EC60005CA226 /* Sourses */,
 			);
@@ -514,12 +539,14 @@
 			files = (
 				1702CB441CE46AE600157878 /* BaseModel.m in Sources */,
 				1702CB721CE46BD100157878 /* HomePageController.m in Sources */,
+				179EE1881CE4CEDC00654FCF /* Model.xcdatamodeld in Sources */,
 				1702CB451CE46AE600157878 /* BaseViewController.m in Sources */,
 				7E48F6101C5EF4E400692810 /* AppDelegate.m in Sources */,
 				1702CB461CE46AE600157878 /* MyTabBarController.m in Sources */,
 				1702CB731CE46BD100157878 /* SportController.m in Sources */,
 				1702CB7D1CE470B600157878 /* BaseView.m in Sources */,
 				1702CB751CE46BD100157878 /* SportModel.m in Sources */,
+				179EE1851CE4CE6400654FCF /* DatabaseManager.m in Sources */,
 				1702CB761CE46BD100157878 /* SportPath.m in Sources */,
 				1702CB741CE46BD100157878 /* StartRunController.m in Sources */,
 				1702CB7A1CE46C1600157878 /* UserViewController.m in Sources */,
@@ -760,6 +787,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		179EE1861CE4CEDC00654FCF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				179EE1871CE4CEDC00654FCF /* Model.xcdatamodel */,
+			);
+			currentVersion = 179EE1871CE4CEDC00654FCF /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Service/DatabaseManager/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7E48F6001C5EF4E400692810 /* Project object */;
 }
