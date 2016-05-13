@@ -40,6 +40,7 @@
     _startBtn = [[UIButton alloc] init];
     [_startBtn setTitle:@"开始跑步" forState:UIControlStateNormal];
     [_startBtn setBackgroundColor:[UIColor redColor]];
+    [_startBtn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     [self addSubview:_startBtn];
     [_startBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.mapView.mas_bottom).offset(20);
@@ -51,6 +52,7 @@
     _stopBtn = [[UIButton alloc] init];
     [_stopBtn setTitle:@"停止跑步" forState:UIControlStateNormal];
     [_stopBtn setBackgroundColor:[UIColor redColor]];
+    [_stopBtn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     [self addSubview:_stopBtn];
     [_stopBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.mapView.mas_bottom).offset(20);

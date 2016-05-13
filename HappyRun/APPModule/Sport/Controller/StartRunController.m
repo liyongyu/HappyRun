@@ -138,6 +138,7 @@
 - (void)stopRun:(id)sender{
     [_timer invalidate];
     _timer = nil;
+    self.sportModel.distance = 0;
     //    [_locationService stopUserLocationService];
 }
 
