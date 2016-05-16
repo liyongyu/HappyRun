@@ -6,8 +6,10 @@
 //  Copyright © 2016年 YuZai. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface HomePageController : UINavigationController
+@interface HomePageController :BaseViewController
+
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
