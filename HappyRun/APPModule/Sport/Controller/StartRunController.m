@@ -238,7 +238,7 @@
                                 (long)self.sportModel.total_time / 3600,
                                 (long)self.sportModel.total_time % 3600 / 60,
                                 (long)self.sportModel.total_time % 60]];
-    self.startRunView.distanceLabel.text = [NSString stringWithFormat:@"%d米",self.sportModel.distance];
+    self.startRunView.distanceLabel.text = [NSString stringWithFormat:@"%ld米",(long)self.sportModel.distance];
     
     CGFloat speed = self.sportModel.distance/self.sportModel.total_time;
     _startRunView.speedLabel.text = [NSString stringWithFormat:@"时速%.2f公里/小时", speed*3600/1000];
